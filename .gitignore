@@ -1,0 +1,34 @@
+src/*.exe
+src/ezzycoin
+src/ezzycoind
+src/test_ezzycoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.ezzycoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+ezzycoin-qt
+Ezzycoin-Qt.app
+
+# Unit-tests
+Makefile.test
+ezzycoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
